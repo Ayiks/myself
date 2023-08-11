@@ -2,11 +2,12 @@ import bwmap from './backgrounds/bw-map.jpeg';
 import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
+import heroback from './backgrounds/back-hero.jpg';
 
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-import shaq from './personal/shaq.png';
+import cliff from './personal/cliff.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -51,6 +52,7 @@ import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
 export {
+  heroback,
   bwmap,
   nairobi,
   whiteabstract,
@@ -58,6 +60,7 @@ export {
   logo,
   logotext,
   shaq,
+  cliff,
   backend,
   ux,
   frontend,
