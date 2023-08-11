@@ -28,11 +28,14 @@ const Navbar = () => {
 
           {/* if you have text you want besides your logo it comes here.
           Otherwise delete this if you don't need it. */}
-          <img
+          {/* <div
             src={logotext}
             alt="logo"
             className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] -ml-[0.6rem] object-contain"
-          />
+          /> */}
+          <h3 
+          className='text-eerieBlack font-extrabold uppercase text-[21px]' 
+          >Ayiks</h3>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
           {navLinks.map((nav) => (
@@ -73,7 +76,7 @@ const Navbar = () => {
                     key={nav.id}
                     className={`${
                       active === nav.title ? 'text-french' : 'text-eerieBlack'
-                    } text-[88px] font-bold font-arenq 
+                    } text-[20px]  font-mova 
                       uppercase tracking-[1px] cursor-pointer`}
                     onClick={() => {
                       setToggle(!toggle);
