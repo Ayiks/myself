@@ -34,10 +34,11 @@ import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
 import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
-import graphql from './tech/graphql.png';
-import postgresql from './tech/postgresql.png';
-import rubyrails from './tech/rubyrails.png';
+import flutter from './tech/flutter.png';
+import dart from './tech/dart.png';
+import bootstrap from './tech/bootstrap.png';
+import android from './tech/android.png';
+import firebase from './tech/firebase.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -59,7 +60,6 @@ export {
   worldmap,
   logo,
   logotext,
-  shaq,
   cliff,
   backend,
   ux,
@@ -79,16 +79,17 @@ export {
   docker,
   figma,
   git,
-  graphql,
   html,
   javascript,
   nodejs,
-  postgresql,
-  rubyrails,
   reactjs,
   redux,
   tailwind,
-  typescript,
+  flutter,
+  dart,
+  firebase,
+  android,
+  bootstrap,
   komikult,
   leaderboard,
   math,
