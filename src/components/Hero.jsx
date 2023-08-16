@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { shaq, cliff,  heroback } from '../assets';
+import {  cliff,  heroback } from '../assets';
 
 const Hero = () => {
   return (
