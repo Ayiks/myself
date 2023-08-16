@@ -4,7 +4,6 @@ import {
   ux,
   prototyping,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -14,9 +13,7 @@ import {
   git,
   figma,
   docker,
-  postgresql,
-  rubyrails,
-  graphql,
+ flutter,
   komikult,
   leaderboard,
   math,
@@ -27,6 +24,10 @@ import {
   dcc,
   kelhel,
   microverse,
+  bootstrap,
+  dart,
+  android,
+  firebase,
 } from '../assets';
 
 export const navLinks = [
@@ -81,10 +82,7 @@ const technologies = [
     name: 'JavaScript',
     icon: javascript,
   },
-  {
-    name: 'TypeScript',
-    icon: typescript,
-  },
+ 
   {
     name: 'React JS',
     icon: reactjs,
@@ -98,20 +96,28 @@ const technologies = [
     icon: tailwind,
   },
   {
+    name: 'Bootstrap CSS',
+    icon: bootstrap
+  },
+  {
     name: 'Node JS',
     icon: nodejs,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
+    name: 'Flutter',
+    icon: flutter
   },
   {
-    name: 'graphql',
-    icon: graphql,
+    name: 'Dart',
+    icon: dart
   },
   {
-    name: 'postgresql',
-    icon: postgresql,
+    name:'Android',
+    icon: android
+  },
+  {
+    name: 'Firebase',
+    icon: firebase
   },
   {
     name: 'git',
@@ -121,10 +127,7 @@ const technologies = [
     name: 'figma',
     icon: figma,
   },
-  {
-    name: 'docker',
-    icon: docker,
-  },
+  
 ];
 
 const experiences = [
@@ -161,25 +164,25 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Pharmacy System',
+    description: 'A pharmacy management system that helps you to manage your inventory,expenses, employees and track your daily sales.',
     tags: [
       {
-        name: 'react',
+        name: 'PHP',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'mysql',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'Boostrap',
         color: 'pink-text-gradient',
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    // repo: 'https://github.com/shaqdeff/KomiKult',
+    demo: 'https://pos.easterntechhub.com/public/login',
   },
   {
     id: 'project-2',
