@@ -132,18 +132,18 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'Software Engineer/ Technical lead',
+    company_name: 'Eastern Tech Hub',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Aug 2021 - Present',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Software Engineer',
+    company_name: 'Freelancer',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'e 2022 - May 2022',
   },
   {
     title: 'Junior Software Engineer',
